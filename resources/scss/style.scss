@@ -1,0 +1,41 @@
+@charset "UTF-8";
+
+/*!
+*
+* ST Snipets Viewer
+*
+* Copyright (c) 2014 Beeworks Co., Ltd All rights reserved
+* 
+* @version : 0
+* @author  : k_shimoda@beeworks.co.jp
+* 
+*/
+
+/*! ===========================================
+※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※
+　このCSSファイルはSassから生成されていますので、
+　編集しないようご注意ください。by Beeworks
+※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※
+============================================ */
+
+@import "compass";
+// @import "mixin";
+// @import "extend";
+// @import "reset";
+// @import "setting";
+// @import "layout";
+
+#drop {
+	border: 1px solid #ccc;
+	background-color: #eee;
+	margin-bottom: 20px;
+	width: 100%;
+	height: 200px;
+	p {
+		height: 200px;
+		line-height: 200px;
+		vertical-align: middle;
+		text-align: center;
+		font-size: 50px;
+	}
+}
