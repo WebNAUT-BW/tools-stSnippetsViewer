@@ -11,31 +11,19 @@
 * 
 */
 
-/*! ===========================================
-※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※
-　このCSSファイルはSassから生成されていますので、
-　編集しないようご注意ください。by Beeworks
-※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※
-============================================ */
-
 @import "compass";
-// @import "mixin";
-// @import "extend";
-// @import "reset";
-// @import "setting";
-// @import "layout";
 
 #drop {
-	border: 1px solid #ccc;
-	background-color: #eee;
-	margin-bottom: 20px;
 	width: 100%;
 	height: 200px;
+	margin-bottom: 20px;
+	border: 1px solid #ccc;
+	background-color: #eee;
 	p {
 		height: 200px;
-		line-height: 200px;
 		vertical-align: middle;
-		text-align: center;
 		font-size: 50px;
+		line-height: 200px;
+		text-align: center;
 	}
 }
