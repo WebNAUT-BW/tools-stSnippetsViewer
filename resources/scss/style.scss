@@ -12,7 +12,12 @@
 */
 
 @import "compass";
-
+body {
+	padding-bottom: 50px;
+}
+header h1 {
+	font-family: 'Nova Round', cursive;
+}
 #drop {
 	width: 100%;
 	height: 200px;
@@ -25,5 +30,31 @@
 		font-size: 50px;
 		line-height: 200px;
 		text-align: center;
+	}
+}
+footer {
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	padding: 10px 0;
+	background-color: rgba(0,0,0,0.7);
+	color: #fff;
+	p {
+		margin-bottom: 0;
+	}
+	a {
+		color: #fff;
+		text-decoration: underline;
+	}
+	.sns {
+		padding: 0;
+		.sns-twitter,
+		.sns-facebook {
+			float: left;
+			width: 130px;
+			display: block;
+			overflow: hidden;
+		}
 	}
 }
