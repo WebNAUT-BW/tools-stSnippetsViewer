@@ -1,5 +1,6 @@
 #ST Snippets Viewer
 Sublime Textのスニペットの内容を一覧表示するツールです。  
+http://webnaut.jp/tools/ST-Snippets-Viewer/  
   
 Sublime Textのスニペットファイル（***.sublime-snippet）を[Drag & Drop files here]の枠にドラッグ&ドロップすればそのファイルの中身がページ内に表示されます。
 - File Name：ファイル名
